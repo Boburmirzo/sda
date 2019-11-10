@@ -1,7 +1,5 @@
 package com.sda.tasks.oop.oop2;
 
-import com.sda.tasks.market.PersonVehicle;
-
 /**
  * Developer is a Software engineer which inherits from Person
  *
