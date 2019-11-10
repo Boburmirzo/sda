@@ -14,3 +14,4 @@ public class Front3 {
         return front + front + front;
     }
 }
+// some comments git test
