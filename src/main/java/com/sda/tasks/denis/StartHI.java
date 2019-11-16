@@ -1,4 +1,4 @@
-package com.sda.tasks.triin;
+package com.sda.tasks.denis;
 
 public class StartHI {
     private String checkup;
