@@ -6,7 +6,6 @@ public abstract class Vehicle {
    * Date: when person buys a car
    */
    String date;
-
   /**
    * Brand: type of car's brand and it is chosen by a person
    */
