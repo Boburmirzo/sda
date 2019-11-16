@@ -23,7 +23,11 @@ public class Main {
        String carBrand = scanner.nextLine();
        newCar.buy(newPerson, newCar, "16/11/2019", carBrand);
     } else {
-
+        Bike newBike = new Bike();
+        System.out.println("Which brand do you prefer?");
+        System.out.println("We have these brands: " + Brand.BMW + ", " + Brand.MAZDA + ", " + Brand.NISSAN);
+        String bikeBrand = scanner.next();
+        newBike.buy(newPerson, newBike, "16/11/2019", bikeBrand);
     }
   }
 }
