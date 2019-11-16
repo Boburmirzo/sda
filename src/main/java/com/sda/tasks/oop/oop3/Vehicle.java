@@ -5,17 +5,16 @@ public abstract class Vehicle {
   /**
    * Date: when person buys a car
    */
-  String date;
-
+   String date;
   /**
    * Brand: type of car's brand and it is chosen by a person
    */
-  String brand;
+   String brand;
 
-  String vehicleNumber;
+   String vehicleNumber;
 
-  abstract void buy(String date,
-                    String brand);
+   abstract void buy(String date,
+                     String brand);
 
   public String getDate() {
     return date;
