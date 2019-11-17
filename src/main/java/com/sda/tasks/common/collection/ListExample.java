@@ -71,20 +71,22 @@ public class ListExample {
 
     // Delete from array
     //{2,3,4,1,5} delete 4
-//    integers[2] = 0;
-    // 2,3,17,1
+
+    //Current Values: 2,3,17,1,5
     System.out.println("Values currently:");
     for(int i=0; i<integers.length; i++){
       System.out.println(integers[i]);
     }
 
-    int[] integersWithout4 = new int[integers.length-1];
-    for(int i=0, j=0; i<integersWithout4.length; i++, j++){
+    int[] integersWithout17 = new int[integers.length-1];
+    int j=0;
+    for(int i=0; i<integers.length; i++){
       if(integers[i]!=17){
-        integersWithout4[i] = integers[i];
+        integersWithout17[j] = integers[i];
+        j++;
       }
     }
-    integers = integersWithout4;
+    integers = integersWithout17;
     //2,3,1,5
     System.out.println("Values Updated:");
     for(int i=0; i<integers.length; i++){
