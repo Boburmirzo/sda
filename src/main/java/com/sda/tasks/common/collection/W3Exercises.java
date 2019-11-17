@@ -1,6 +1,7 @@
 package com.sda.tasks.common.collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class W3Exercises {
@@ -16,6 +17,17 @@ public class W3Exercises {
 
     //ex2 Iterate through the loop
     w3Exercises.iterateListOfColors();
+
+    List<String> list_Strings = new ArrayList<String>();
+    list_Strings.add("Red");
+    list_Strings.add("Green");
+    list_Strings.add("Orange");
+    list_Strings.add("White");
+    list_Strings.add("Black");
+    System.out.println("List before sort: "+list_Strings);
+//    Collections.sort(list_Strings);
+//    Collections.sort(list_Strings, Collections.reverseOrder());
+    System.out.println("List after sort: "+list_Strings);
   }
 
   //Ex1
@@ -35,5 +47,11 @@ public class W3Exercises {
     }
   }
 
+  //Ex3
+  public List<String> replaceTheFirstColor(){
+    List<String> colors = getListOfColors();
+    colors.add(0, "Yellow");
+    return colors;
+  }
 
 }

@@ -32,4 +32,12 @@ public class W3ExercisesTest {
     Assert.assertEquals("Black", colors.get(1));
     Assert.assertEquals("White", colors.get(2));
   }
+
+  //Ex3
+  @Test
+  public void testReplaceTheFirstColor(){
+    List<String> colors = w3Exercises.replaceTheFirstColor();
+
+    Assert.assertEquals("Yellow", colors.get(0));
+  }
 }
