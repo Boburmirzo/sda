@@ -5,7 +5,7 @@ public class Front3 {
   public String front3(String str) {
     String front;
 
-    if (str.length() >= 3) {
+    if (str.length() >= 10) {
       front = str.substring(0, 3);
     }
     else {
